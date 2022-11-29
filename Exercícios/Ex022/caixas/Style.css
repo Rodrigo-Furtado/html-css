@@ -1,0 +1,27 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Finger+Paint&family=Kdam+Thmor+Pro&family=Roboto:ital,wght@0,100;0,300;0,900;1,100;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Roboto:ital,wght@0,100;0,300;0,900;1,100;1,900&display=swap');
+
+
+h1{ /* Box level */
+    color: rgb(208, 208, 239);
+    background-color: rgb(129, 62, 196);
+    height: 300px;
+    width: 300px;
+    text-align: justify;
+
+    border: 10px solid black;
+    padding: 10px 10px 10px 10px;
+    margin: 25px auto auto auto;
+    outline: 60px double maroon;
+
+
+}
+
+a{ /* inline level */
+    border: 10px double rebeccapurple;
+    color: rgb(28, 173, 76);
+    padding: 10px 10px 10px 10px;
+    margin: auto;
+    
+}

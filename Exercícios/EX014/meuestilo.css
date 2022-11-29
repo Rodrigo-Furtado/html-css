@@ -1,0 +1,22 @@
+
+@charset "UTF-8"; 
+    
+    body{
+        background-color: rgb(255, 238, 183); 
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 20px;}
+    h1{
+        font-size: 50px;
+        font-family: fantasy;
+        color: rgb(97, 50, 7);
+        background-color: rgb(231, 194, 138);
+    }
+    h2{
+       color: brown; 
+       font-size: 30;
+       font-family: monospace;
+    }
+    p {
+        font-family: serif;
+        color: rgb(82, 52, 7);
+    }/** seletores são o que selecional as tags para muda-las

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrupamento de tags</title>
+    <style>
+        h1 {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 32px;
+            color: rgb(75, 112, 100);
+            
+        }
+        body {
+            background-color: rgb(29, 62, 37);
+            margin: 0px;
+        }
+
+        header {
+            background-color: rgb(224, 240, 224);
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        main {
+            border-radius: 10px;
+            background-color: azure;
+            padding: 10px;
+            margin: 10px
+            
+        }
+
+        article {
+            background-color: rgb(222, 221, 218);
+        }
+
+        article>aside {
+            background-color: rgb(96, 96, 95);
+            text-align: center;
+            box-shadow: -2px 2px 4px rgba(0, 0, 0, 0.356);
+        }
+
+        nav {
+            padding: 10px;
+            background-color: rgb(165, 238, 216);
+            box-shadow: 2px 2px 6px rgba(8, 8, 8, 0.244);
+
+
+        }
+
+        nav>a {
+            text-decoration: none;
+            color: rgb(83, 82, 81);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 18px;
+            margin-right: 20px;
+
+        }
+
+        nav>a:hover {
+            color: rgb(154, 154, 255);
+        }
+
+
+        footer {
+            background-color: rgb(162, 133, 133);
+            padding: 4px;
+            margin: 0px;
+            color: antiquewhite;
+            text-align: center;
+            font-size: 18px;
+        }
+
+        footer>p {
+            margin: 0px;
+        }
+
+        #assunto1 {
+            font-size: 18px;
+            font-style: bold;
+            color: rgb(67, 51, 32);
+        }
+        div#bola {
+            width: 100px;
+            height: 100px;
+            background-color: antiquewhite;
+            margin: 10px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>
+            meu painel
+        </h1>
+        <nav>
+            <a href="*">Catálogo</a>
+            <a href="*">Carrinho</a>
+            <a href="*">Minha conta</a>
+            <a href="*">Quem somos</a>
+            <a href="*">Contatos</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assunto1">
+            <p>esportes politic e tecnologia</p>
+        </section>
+        <section>
+            <article id="artigo2">
+                <h2>meu artigo</h2>
+            </article>
+        </section>
+        <section id="assunto2">
+            <article>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam nam sequi quas voluptatum quos error
+                    aspernatur quidem aliquam quisquam, saepe modi aperiam, minima ullam magni itaque voluptatem
+                    reiciendis? Aspernatur, velit?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto voluptatum fugit veritatis
+                    perspiciatis commodi aliquam ex magnam quia, aliquid molestias accusantium voluptas ducimus amet.
+                    Voluptas mollitia repellat debitis praesentium harum?</p>
+                <aside>
+                    <p>
+                        artigo escrito por Rodrigo Santos Furtado a fim de aprender um pouco de html semântico.
+                    </p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>
+            site critado por rodrigo furtado.
+        </p>
+    </footer>
+    <div id="bola"></div>
+</body>
+
+</html>
