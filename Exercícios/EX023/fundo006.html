@@ -9,16 +9,24 @@
     <style>
         body {
             height: 100vh;
-            background-color: black;
+            background-size: cover;
+            /* background-color: black;
             background-image: url(images/wallpaper002.jpg);
             background-position: center top;
             background-repeat: no-repeat;
-            background-size: cover;
+            
+            background-attachment: fixed; */
+             
+              
+            /* color> image position repeat {size} > attachment
+            o size ainda não está funcionando apesar de na documentação dizer que funciona*/
+            background: rgb(0, 0, 0) url(images/wallpaper002.jpg) center center no-repeat fixed;
         }
 
+
         main {
-            background-color: white;
-            width: 400px;
+            background-color: rgb(255, 255, 255);
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
